@@ -18,14 +18,14 @@ Designed for internal monitoring, booking screens, or simulator control panels. 
 
 ## 📦 Tech Stack
 
-| Layer      | Tech                            |
-| ---------- | ------------------------------- |
-| Frontend   | React, Electron                 |
-| Backend    | Node.js, Express                |
-| Realtime   | Pusher Channels (WebSockets)    |
-| Background | Redis + BullMQ (for job queues) |
-| DB         | MongoDB                         |
-| DevOps     | Docker & Docker Compose         |
+| Layer      | Tech                                                             |
+| ---------- | ---------------------------------------------------------------- |
+| Frontend   | React, Electron                                                  |
+| Backend    | Node.js, Express                                                 |
+| Realtime   | [Pusher Channels](https://pusher.com/docs/channels) (WebSockets) |
+| Background | Redis + BullMQ (for job queues)                                  |
+| DB         | MongoDB                                                          |
+| DevOps     | Docker & Docker Compose                                          |
 
 ---
 
