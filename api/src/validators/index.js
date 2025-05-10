@@ -2,7 +2,7 @@ const Joi = require('joi');
 
 const addBookingSchema = Joi.object().keys({
   body: Joi.object().keys({
-    bayId: Joi.string().required(),
+    id: Joi.string().required(),
     firstName: Joi.string().required(),
     lastName: Joi.string().required(),
     sessionStartTime: Joi.string().required(),
